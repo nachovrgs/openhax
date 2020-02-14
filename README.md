@@ -1,5 +1,8 @@
 # OpenHax - Open Source Haxball Clone in HTML5 and Javascript
 
+Cloned from https://github.com/erasmo-marin/open-hax
+
+
 ![screenshot](https://github.com/erasmo-marin/open-hax/raw/master/screenshot.png)
 
 

@@ -25,7 +25,7 @@
     "moment": "^2.13.0",
     "mongo-wrapper": "0.0.29",
     "mongodb": "^2.1.19",
-    "morgan": "~1.6.1",
+    "morgan": "~1.9.1",
     "multer": "^1.1.0",
     "node-uuid": "^1.4.7",
     "react": "^15.3.2",

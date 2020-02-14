@@ -56,7 +56,7 @@ class Materials {
 
         //BALL - FIELD
         this.ballFieldContact = game.physics.p2.createContactMaterial(this.ball, this.field);
-        this.ballFieldContact.friction = 0.5; 
+        this.ballFieldContact.friction = 0.4;
         this.ballFieldContact.restitution = 0.9;
         this.ballFieldContact.stiffness = 1e7;
         this.ballFieldContact.relaxation = 3;
@@ -66,13 +66,13 @@ class Materials {
 
         //PLAYER - BALL
         this.playerBallContact = game.physics.p2.createContactMaterial(this.player, this.ball);
-        //this.playerBallContact.friction = 0.5; 
+        this.playerBallContact.friction = 0.5;
         this.playerBallContact.restitution = 0.1;
-        //this.playerBallContact.stiffness = 1e7;
-        //this.playerBallContact.relaxation = 3;
-        //this.playerBallContact.frictionStiffness = 1e7;
-        //this.playerBallContact.frictionRelaxation = 3;
-        //this.playerBallContact.surfaceVelocity = 0;
+        this.playerBallContact.stiffness = 1e7;
+        this.playerBallContact.relaxation = 3;
+        this.playerBallContact.frictionStiffness = 1e7;
+        this.playerBallContact.frictionRelaxation = 3;
+        this.playerBallContact.surfaceVelocity = 0;
 
 
     }

@@ -336,8 +336,8 @@ class Game extends React.Component {
         });
 
 
-        this.player = new Player(this.game, materials.player, this.collisions, "home", "ojo", ":)", true);
-        this.player2 = new Player(this.game, materials.player, this.collisions, "away", "oasfsgfdhgdfgdjo", ":(", false);
+        this.player = new Player(this.game, materials.player, this.collisions, "home", "player1", ".", true);
+        this.player2 = new Player(this.game, materials.player, this.collisions, "away", "player2", "0", false);
         this.ball = new Ball(this.game, materials.ball, this.collisions);
 
         this.field.addPlayer(300, 300, this.player);

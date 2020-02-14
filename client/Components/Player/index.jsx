@@ -27,7 +27,7 @@ class Player {
         this.activeBorderColor = 0xffffff;
 
         this.cursors = game.input.keyboard.createCursorKeys();
-        this.cursors.x = this.game.input.keyboard.addKey(Phaser.Keyboard.X);
+        this.cursors.x = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 
         this.touchingBall = false;
 
@@ -123,7 +123,7 @@ class Player {
                 (this.cursors.right.isDown && this.cursors.up.isDown)   ||
                 (this.cursors.right.isDown && this.cursors.down.isDown)) {
 
-                thrust = Math.sqrt(Math.pow(thrust,2)/2);
+                //thrust = Math.sqrt(Math.pow(thrust,2)/2);
             }
 
 

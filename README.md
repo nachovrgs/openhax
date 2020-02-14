@@ -17,7 +17,7 @@ git clone https://github.com/erasmo-marin/open-hax.git openHax
 cd openHax
 npm install
 npm run build
-nodemon ./bin/www 
+nodemon ./bin/www
 ```
 
 ## TODO:

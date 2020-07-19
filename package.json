@@ -20,7 +20,7 @@
     "history": "^4.3.0",
     "jsx-loader": "^0.13.2",
     "keymirror": "^0.1.1",
-    "lodash": "^4.16.4",
+    "lodash": "^4.17.19",
     "md5": "^2.1.0",
     "moment": "^2.13.0",
     "mongo-wrapper": "0.0.29",
